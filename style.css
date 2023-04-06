@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #81BDE5, #4870A5);
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 70vw;
+    height: 93vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+#left {
+    width: 28%;
+    height: 100%;
+    background-color: #2D4AA4;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#right {
+    width: 72%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#top1 {
+    height: 10%;
+    width: 100%;
+    background-color: #2D4AA4;
+    border-radius: 15px 0 0 0;
+    border-bottom: 3px solid #21358A;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+#bar{
+    width: 90%;
+    height: 40%;
+    background-color: #6C81BF;
+    margin-right: 5px;
+    border-radius: 3px;
+    display: flex;
+}
+#search{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#input{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+input{
+    background-color: transparent;
+    border: none;
+}
+input::placeholder{
+    color: white;
+}
+
+
+
+#bottom1 {
+    height: 10%;
+    width: 100%;
+    background-color: #2D4AA4;
+    border-radius: 0 0 0 15px;
+    border-top: 3px solid #21358A;
+    display: flex;
+    align-items: center;
+
+}
+#add{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #182983;
+    margin-left: 15px;
+    font-size: 35px;
+
+}
+
+#middle1 {
+    height: 80%;
+    overflow-y: auto;
+}
+
+#middle1::-webkit-scrollbar, #middle2::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    height: 88px;
+    width: 100%;
+    border-top: 3px solid #21358A;
+    display: flex;
+    align-items: center;
+}
+.item:hover{
+    background-color: #253e8a;
+;
+}
+#item1{
+    border-top: none;
+}
+
+#top2 {
+    height: 10%;
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 0 15px 0 0;
+    border-bottom: 3px solid #C6C6C6;
+    display: flex;
+    
+
+}
+#personName{
+    margin-left: 2%;
+    width: 88%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #2D4AA4;
+    font-size: 25px;
+    font-weight: bold;
+}
+#trash{
+    width: 10%;
+    height: 100%;
+}
+
+#middle2 {
+
+    height: 80%;
+    overflow-y: auto;
+
+}
+.text{
+    margin: auto;
+    width: 95%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+
+}
+.content{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#mContent{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+#Darin{
+    width: 60px;
+    height: 60px;
+    border-radius: 150px;
+    background-image: url(Images/daryl.png);
+    background-position: center;
+    background-size: cover;
+
+}
+#rcontent{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Dmsg{
+    width: 95%;
+    height: auto;
+    background-color: #EEEEEE;
+    padding: 10px;
+    border-radius: 15px 15px 15px 0;
+}
+#Mmsg{
+    width: auto;
+    max-width: 80%;
+    height: auto;
+    background-color: #2D4AA4;
+    padding: 10px ;border-radius: 15px 15px 0 15px;
+}
+#day{
+    height: auto;
+    margin-top: 5px;
+    color: #777777;
+    font-size: 14px;
+}
+
+
+.Me{
+    justify-content: flex-end;
+}
+
+#bottom2 {
+    height: 10%;
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 0 0 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bottomOpt{
+    width: 93%;
+    height: 65%;
+    display: flex;
+
+}
+#attach{
+    width: 10%;
+    height: 100%;
+}
+#chat{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+}
+#chat::placeholder{
+    color: gray;
+    padding: 15px;
+}
+
+.inner {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.pfp {
+    width: 17%;
+    height: 50px;
+    border-radius: 150px;
+    background-position: center;
+    background-size: cover;
+
+
+}
+#stuff{
+    width: 70%;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+}
+.message{
+    font-size: 10px;
+    color: white;
+}
+.NandD{
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+#pfp1 {
+    background-image: url(Images/daryl.png);
+}
+
+#pfp2 {
+    background-image: url(Images/kim.jpeg);
+}
+
+#pfp3 {
+    background-image: url(Images/john.jpeg);
+}
+
+#pfp4 {
+    background-image: url(Images/ben.png);
+}
+
+#pfp5 {
+    background-image: url(Images/douglas.png);
+}
+
+#pfp6 {
+    background-image: url(Images/jacob.png);
+}
+
+#pfp7 {
+    background-image: url(Images/stacey.jpeg);
+}
+
+#pfp8 {
+    background-image: url(Images/stan.jpeg);
+}
+
+#pfp9 {
+    background-image: url(Images/sarah.jpeg);
+}
+
+
+.d {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
+    color: #C5C5D6;
+  
+
+
+}
+#name{
+    width: 50%;
+}
+
